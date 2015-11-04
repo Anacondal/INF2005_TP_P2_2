@@ -1,0 +1,22 @@
+#photo {
+    float : left;
+    height : 30%;
+    width : 15%;
+}
+footer {
+    position : absolute;
+    top : 65%;
+    left : 0%;
+}
+div {
+    position : absolute;
+    left : 17%
+}
+.head {
+    position : absolute;
+    left : 20%;
+}
+.carte {
+    position : absolute;
+    top : 10%;
+}
