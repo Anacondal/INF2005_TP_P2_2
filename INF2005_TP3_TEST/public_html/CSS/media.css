@@ -1,0 +1,95 @@
+body{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	width:auto;
+}
+#page{
+	width: 50em;
+	border:none;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+#banner{
+	width:100%;
+	height: 3.75em;
+	display: flex;
+	flex-direction:column; 
+	justify-content:flex-end;
+	align-items:center;
+	border-bottom: solid;
+	border-bottom-color: blue;
+	border-bottom-width: 0.06em;
+}
+
+#banner span{
+	text-transform: uppercase;
+	font-style: italic;
+}
+#bcontainer{
+	width:auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.alink{
+	width:6em;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	border: none;
+	background-color: orange;
+	text-transform: uppercase;
+}
+
+#maincontainer{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+#leftmenus{
+	width:10em;
+	height:auto;
+	background-color: orange; 
+	display:flex;
+	flex-direction:column;
+	
+}
+
+#leftmenus .alink{
+	width:100%;
+	justify-content:flex-start;
+}
+#contents{
+	width: 40em;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	border:none;
+}
+
+#footer {
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	background-color: orange;
+}
+
+
+.alink a{
+	text-decoration: none;
+}
+.alink a:hover{
+	text-decoration: none;
+	background-color:yellow;
+}
+#footer .alink{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}	
