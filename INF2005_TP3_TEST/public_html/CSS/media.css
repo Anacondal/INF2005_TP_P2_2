@@ -21,7 +21,7 @@ body{
 	justify-content:flex-end;
 	align-items:center;
 	border-bottom: solid;
-	border-bottom-color: blue;
+	border-bottom-color: black;
 	border-bottom-width: 0.06em;
 }
 
@@ -42,7 +42,7 @@ body{
 	flex-direction:row;
 	justify-content:center;
 	border: none;
-	background-color: orange;
+	background-color: red;
 	text-transform: uppercase;
 }
 
@@ -54,7 +54,7 @@ body{
 #leftmenus{
 	width:10em;
 	height:auto;
-	background-color: orange; 
+	background-color: red; 
 	display:flex;
 	flex-direction:column;
 	
@@ -77,7 +77,7 @@ body{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
-	background-color: orange;
+	background-color: red;
 }
 
 
@@ -86,10 +86,15 @@ body{
 }
 .alink a:hover{
 	text-decoration: none;
-	background-color:yellow;
+	background-color:gray;
 }
 #footer .alink{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
-}	
+}
+#logo {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
