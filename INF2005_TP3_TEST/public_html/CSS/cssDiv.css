@@ -1,0 +1,17 @@
+div{
+	text-align: center;
+	text-decoration: blink;
+	padding: 20px;
+	width: 100px;
+	height: 100px;
+	vertical-align:middle;
+	border-color: red;
+	background-color:red;
+	position: absolute;
+	left:40px;
+	top:70px;
+}
+img{
+    width: 100%;
+    height:100%; 
+}

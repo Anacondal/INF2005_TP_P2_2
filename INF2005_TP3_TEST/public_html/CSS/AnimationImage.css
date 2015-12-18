@@ -1,0 +1,31 @@
+#anime1 { 
+     /* navigateur supportant le préfixewebkit*/
+    -webkit-animation-name: animation1;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear; /* evolution a la meme vitesse*/
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite; /* animation infinie*/
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* navigateur supportant le standard */
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; /* animation infinie*/
+    animation-direction: alternate; /*mouvement dans les 2 sens*/
+    animation-play-state: running;      
+}
+@-webkit-keyframes animation1 {/* mouvement en forme de U*/
+    0% {background: red;left:40px;top:100px;}
+    30% {background: purple; left:40px;top:300px;}
+    70% {background: yellow;left:400px;top:300px;}
+    100% {background: blue;left:400px;top:100px;}
+}
+@keyframes animation1 {/* mouvement en forme de U*/
+    0% {background: red;left:40px;top:100px;}
+    30% {background: purple; left:40px;top:300px;}
+    70% {background: yellow;left:400px;top:300px;}
+    100% {background: blue;left:400px;top:100px;}
+}
+
